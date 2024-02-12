@@ -18,7 +18,7 @@ def handler_error(error:Exception)-> httpResponse:
                         "title":"Server Error",
                         "datail":str(error)
 
-                      }
-                      ]
-                      }
-                      )
+                       }
+                    ]
+                  }
+                )

@@ -1,5 +1,5 @@
 class HttpUnprocessableEntityError(Exception):
-  def __init__(self, message:str) -> None:
+ def __init__(self, message:str) -> None:
     super().__init__(message)
     self.messsage=message
     self.name="UnprocessableEntity"
